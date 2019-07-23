@@ -10,6 +10,7 @@ module.exports = (api, options, rootOptions) => {
       "test:unit": "vue-cli-service test:unit"
     },
     dependencies: {
+      "@scf/ui": "^1.0.1",
       "axios": "^0.18.0",
       "dayjs": "^1.8.14",
       "iview": "^3.4.2",
@@ -26,7 +27,6 @@ module.exports = (api, options, rootOptions) => {
       "@vue/cli-plugin-babel": "^3.3.0",
       "@vue/cli-plugin-eslint": "^3.3.0",
       "@vue/cli-plugin-unit-jest": "^3.3.0",
-      "@vue/cli-service": "^3.3.0",
       "@vue/eslint-config-standard": "^4.0.0",
       "@vue/test-utils": "^1.0.0-beta.20",
       "babel-core": "7.0.0-bridge.0",
@@ -38,6 +38,7 @@ module.exports = (api, options, rootOptions) => {
       "eslint-plugin-vue": "^5.0.0",
       "less": "^2.7.3",
       "less-loader": "^4.1.0",
+      "mockjs": "^1.0.1-beta3",
       "prettier-eslint-cli": "^4.7.1",
       "stylelint": "^10.1.0",
       "stylelint-config-recess-order": "^2.0.2",
