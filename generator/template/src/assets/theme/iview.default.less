@@ -1,0 +1,92 @@
+@import '~iview/src/styles/index.less';
+
+// Color
+@primary-color: #007ACE;
+// @info-color: #2db7f5;
+@success-color: #5CB85C;
+@processing-color: @primary-color;
+@warning-color: #F0AD4E;
+@error-color: #D9534F;
+// @normal-color           : #e6ebf1;
+@link-color: #1886EB;
+// @link-hover-color       : tint(@link-color, 20%);
+// @link-active-color      : shade(@link-color, 5%);
+// @selected-color         : fade(@primary-color, 90%);
+@tooltip-color: rgba(255,255,255,0.65);
+// @subsidiary-color       : #808695;
+// @rate-star-color        : #f5a623;
+
+// Base
+// @body-background        : #fff;
+// @font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB"," PingFangSC-Medium","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+// @code-family            : Consolas,Menlo,Courier,monospace;
+@title-color: rgba(0,0,0,0.85);
+@text-color: rgba(0,0,0,0.65);
+// @font-size-base         : 14px;
+// @font-size-small: 12px;
+// @font-size-large        : 16px;
+// @line-height-base       : 1.5;
+// @line-height-computed   : floor((@font-size-base * @line-height-base));
+@border-radius-base: 4px;
+@border-radius-small: 4px;
+// @cursor-disabled        : not-allowed;
+
+// Border color
+// @border-color-base: #DDDDDD;  // outside
+// @border-color-split: #EEEEEE;  // inside
+// @border-width-base      : 1px;            // width of the border for a component
+// @border-style-base      : solid;          // style of a components border
+
+// Background color
+// @background-color-base        : #f7f7f7;  // base
+@background-color-select-hover: #ECF9FF;
+@tooltip-bg: rgba(0,0,0,0.75);
+// @head-bg                      : #f9fafc;
+@table-thead-bg: #EEEEEE;
+@table-td-stripe-bg: #F5F5F5;
+@table-td-hover-bg: #ECF9FF;
+@table-td-highlight-bg: #ECF9FF;
+// @menu-dark-title              : #515a6e;
+// @menu-dark-active-bg          : #363e4f;
+// @menu-dark-subsidiary-color   : rgba(255,255,255,.7);
+// @menu-dark-group-title-color  : rgba(255,255,255,.36);
+// @date-picker-cell-hover-bg    : #e1f0fe;
+
+// Button
+@btn-font-weight: 400;
+// @btn-padding-base       : 5px 15px 6px;
+// @btn-padding-large      : 6px 15px 6px 15px;
+// @btn-padding-small      : 1px 7px 2px;
+// @btn-padding-base-icon  : 5px 15px 6px;
+// @btn-padding-large-icon : 6px 15px 6px 15px;
+// @btn-padding-small-icon : 1px 7px 2px;
+@btn-font-size: 12px;
+// @btn-font-size-large    : 14px;
+// @btn-border-radius      : 4px;
+// @btn-border-radius-small: 3px;
+// @btn-group-border       : shade(@primary-color, 5%);
+
+// Input
+@input-height-base: 32px;
+@input-height-large: 40px;
+@input-height-small: 24px;
+
+@input-placeholder-color: rgba(0,0,0,0.45);
+@input-color: rgba(0,0,0,0.65);
+@input-border-color: @border-color-base;
+@input-bg: rgba(255,255,255,1);
+
+@input-disabled-bg: #EEEEEE;
+
+// 覆盖form样式
+.@{form-prefix-cls} {
+  .@{form-item-prefix-cls}-label {
+    font-size: @font-size-base;
+  }
+}
+// 覆盖table样式
+.@{table-prefix-cls} {
+  &-wrapper {
+    overflow: visible;
+  }
+}
