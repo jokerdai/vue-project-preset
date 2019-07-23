@@ -4,6 +4,7 @@ module.exports = {
     port: 8088
   },
   chainWebpack: config => {
+    <%_ if (options.theme) { _%>
     // less-loader 排除主题less文件
     config.module.rule('less').exclude.add(/\.theme\.less$/)
     // 添加 style-loader/useable
@@ -45,5 +46,6 @@ module.exports = {
         ]
       }
     })
+    <%_ } _%>
   }
 }

@@ -1,0 +1,4 @@
+NODE_ENV = 'production'
+VUE_APP_BASE_URL = ''
+VUE_APP_SSO_URL = 'https://ssa.jd.com/sso/login?ReturnUrl='
+VUE_APP_LANG = 'zh_CN'
